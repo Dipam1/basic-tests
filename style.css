@@ -1,0 +1,25 @@
+
+h1 {
+    color: #0080ff;
+    text-align: center;
+}
+
+/* Descendant selector: targets span inside .descendant-demo */
+.descendant-demo span {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Child selector: targets direct child span of li */
+li > span {
+    color: #16a085;
+    font-style: italic;
+}
+
+/* Combo selector: targets p.highlight inside .combo-demo */
+.combo-demo p.highlight {
+    background: #f9e79f;
+    color: #c0392b;
+    padding: 5px;
+    border-radius: 4px;
+}
