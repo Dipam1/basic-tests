@@ -1,0 +1,18 @@
+.counter-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    
+}
+
+.counter-container button{
+    margin: 10px;
+    padding: 10px 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: aqua;
+}

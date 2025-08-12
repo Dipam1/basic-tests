@@ -11,6 +11,7 @@
     </div>
     <div class="main-class">
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -22,6 +23,7 @@
         <button>Read More</button>
       </div>
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -33,6 +35,7 @@
         <button>Read More</button>
       </div>
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -44,6 +47,7 @@
         <button>Read More</button>
       </div>
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -55,6 +59,7 @@
         <button>Read More</button>
       </div>
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -66,6 +71,7 @@
         <button>Read More</button>
       </div>
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -77,6 +83,7 @@
         <button>Read More</button>
       </div>
       <div class="card1">
+        <span class="badge">NEW</span>
         <img src="https://picsum.photos/id/237/200/300" alt="" />
         <h1>Card 1</h1>
         <p>
@@ -97,11 +104,12 @@
     .header {
       width: 100%;
       height: 50px;
-      background: red;
+      background: rgba(139, 40, 40, 0.525);
       position: fixed;
     }
 
     .main-class {
+      overflow: scroll;
       width: 90vw;
       height: 90vh;
       border: 2px solid black;
@@ -118,6 +126,17 @@
       align-items: center;
       gap: 10px;
       padding: 20px 10px;
+      position: relative;
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
     }
 
     img {
